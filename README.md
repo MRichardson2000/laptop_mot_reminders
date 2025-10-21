@@ -2,7 +2,7 @@
 This script automates the process of identifying laptops due for an MOT within 30 days and sends reminder emails to the helpdesk team. It helps ensure MOT's are booked in
 and not forgotten about. 
 
--- THIS IS ON EBSFS005 (PRTG Server) --
+-- THIS IS ON MY LAPTOP CURRENTLY. IT WILL NOT WORK ON A VM --
 
 📦 Features
 - Scans a XLSX file containing laptop MOT details with date column at the end.
