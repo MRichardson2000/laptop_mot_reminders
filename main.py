@@ -12,7 +12,7 @@ def send_reminder(reminder_list: list) -> None:
     outlook = win32com.client.Dispatch("Outlook.Application")
     mail = outlook.CreateItem(0)
     mail.Subject = "MOT Reminders"
-    mail.To = "helpdesk@ecology.co.uk"
+    mail.To = ""
     mail.Body = "The following MOTs are due within the next 30 days:\n\n" + "\n".join(
         reminder_list
     )

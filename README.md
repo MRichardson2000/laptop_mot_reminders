@@ -1,6 +1,5 @@
 💻 Laptop MOT Reminder Tool
-This script automates the process of identifying laptops due for an MOT within 30 days and sends reminder emails to the helpdesk team. It helps ensure MOT's are booked in
-and not forgotten about. 
+This script automates the process of identifying laptops due for an MOT within 30 days and sends reminder emails to the helpdesk team. It helps ensure MOT's are booked in and not forgotten about. 
 
 -- THIS IS ON MY LAPTOP CURRENTLY. IT WILL NOT WORK ON A VM --
 
@@ -32,7 +31,7 @@ project/
 
 ⚙️ Configuration
 Edit config.py to set your file path if you need to change them but it's a constant so should only need changing for testing:
-XLSX_FILE = "K:/IT/Restricted/Ecology Network/devops_automation_mr/eol_laptop_reminders/eol_laptops.xlsx"
+XLSX_FILE = ""
 
 
 
@@ -50,7 +49,7 @@ This will:
 
 ✉️ Email Setup
 The script uses win32com.client to send emails via Outlook. The recipient is currently set to:
-mail.To = "helpdesk@ecology.co.uk"
+mail.To = ""
 
 
 You can change this to any valid email address or distribution list.
